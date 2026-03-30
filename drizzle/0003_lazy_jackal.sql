@@ -1,0 +1,1 @@
+ALTER TABLE `stickerProjects` ADD `stickerType` enum('static','animated') DEFAULT 'static' NOT NULL;

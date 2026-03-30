@@ -1,0 +1,9 @@
+{
+  "query": "CREATE TABLE IF NOT EXISTS `__drizzle_migrations` (`id` int AUTO_INCREMENT PRIMARY KEY, `hash` text NOT NULL, `created_at` bigint);\nINSERT INTO `__drizzle_migrations` (`hash`, `created_at`) VALUES ('0000_slimy_anthem', 1774850652299);\nINSERT INTO `__drizzle_migrations` (`hash`, `created_at`) VALUES ('0001_daily_warbird', 1774850760423);\nINSERT INTO `__drizzle_migrations` (`hash`, `created_at`) VALUES ('0002_flashy_jack_power', 1774852283760);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user BJ1rKTdpjeizyzX.eaa22c650208 --database 7jpKhe63xEn5aCyDumhQMp --execute CREATE TABLE IF NOT EXISTS `__drizzle_migrations` (`id` int AUTO_INCREMENT PRIMARY KEY, `hash` text NOT NULL, `created_at` bigint);\nINSERT INTO `__drizzle_migrations` (`hash`, `created_at`) VALUES ('0000_slimy_anthem', 1774850652299);\nINSERT INTO `__drizzle_migrations` (`hash`, `created_at`) VALUES ('0001_daily_warbird', 1774850760423);\nINSERT INTO `__drizzle_migrations` (`hash`, `created_at`) VALUES ('0002_flashy_jack_power', 1774852283760);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 2208
+}

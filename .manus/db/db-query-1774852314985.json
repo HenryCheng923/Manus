@@ -1,0 +1,9 @@
+{
+  "query": "ALTER TABLE `stickerProjects` ADD COLUMN IF NOT EXISTS `stickerCount` int DEFAULT 8 NOT NULL;\nALTER TABLE `stickerProjects` ADD COLUMN IF NOT EXISTS `mainImageUrl` text;\nALTER TABLE `stickerProjects` ADD COLUMN IF NOT EXISTS `tabImageUrl` text;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user BJ1rKTdpjeizyzX.eaa22c650208 --database 7jpKhe63xEn5aCyDumhQMp --execute ALTER TABLE `stickerProjects` ADD COLUMN IF NOT EXISTS `stickerCount` int DEFAULT 8 NOT NULL;\nALTER TABLE `stickerProjects` ADD COLUMN IF NOT EXISTS `mainImageUrl` text;\nALTER TABLE `stickerProjects` ADD COLUMN IF NOT EXISTS `tabImageUrl` text;",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 2545
+}
